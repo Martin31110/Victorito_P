@@ -160,8 +160,7 @@ public class Menu_P extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void L4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_L4MouseClicked
-        Agregar_Cliente R1 = new Agregar_Cliente();
-        R1.setVisible(true);
+
     }//GEN-LAST:event_L4MouseClicked
 
     private void L4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_L4MouseEntered
@@ -174,8 +173,7 @@ public class Menu_P extends javax.swing.JFrame {
     }//GEN-LAST:event_L4MouseExited
 
     private void L5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_L5MouseClicked
-        Agregar_Registro R2 = new Agregar_Registro ();
-        R2.setVisible(true);
+
     }//GEN-LAST:event_L5MouseClicked
 
     private void L5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_L5MouseEntered
@@ -205,7 +203,7 @@ public class Menu_P extends javax.swing.JFrame {
     }//GEN-LAST:event_L10MouseClicked
 
     private void L11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_L11MouseClicked
-        this.setState(Menu_Principal.ICONIFIED);
+        this.setState(Menu_P.ICONIFIED);
     }//GEN-LAST:event_L11MouseClicked
 
     /**
