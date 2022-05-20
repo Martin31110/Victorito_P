@@ -44,11 +44,6 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace max="32767" attributes="0"/>
-                  <Component id="LB1" min="-2" pref="168" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-              </Group>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -60,16 +55,21 @@
                   <Component id="jButton4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="268" max="32767" attributes="0"/>
               </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="LB1" min="-2" pref="168" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   <Component id="LB1" min="-2" pref="34" max="-2" attributes="0"/>
-                  <EmptySpace pref="64" max="32767" attributes="0"/>
-                  <Component id="jScrollPane1" min="-2" pref="227" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="227" max="-2" attributes="0"/>
+                  <EmptySpace pref="81" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -97,7 +97,7 @@
                     <Column editable="true" title="TRABAJO" type="java.lang.Object"/>
                     <Column editable="true" title="CATEGORIA" type="java.lang.Object"/>
                     <Column editable="true" title="CANTIDAD" type="java.lang.Object"/>
-                    <Column editable="true" title="PRECIO UNITARIO" type="java.lang.Object"/>
+                    <Column editable="true" title="PRECIO  UNITARIO" type="java.lang.Object"/>
                     <Column editable="true" title="PRECIO TOTAL" type="java.lang.Object"/>
                     <Column editable="true" title="FECHA DE ENTREGA" type="java.lang.Object"/>
                     <Column editable="true" title="ARCHIVO DE DISE&#xd1;O" type="java.lang.Object"/>
@@ -173,6 +173,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c1" green="c1" red="0" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="MOSTRAR TODO"/>
           </Properties>
           <Events>
@@ -181,16 +184,25 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c1" green="c1" red="0" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="MOSTRAR TRABAJO"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c1" green="c1" red="0" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="MOSTRAR COTIZACIONES"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c1" green="c1" red="0" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="MODIFICAR REGISTRO"/>
           </Properties>
         </Component>
