@@ -93,7 +93,6 @@ public class Agregar_Clientee extends javax.swing.JFrame {
             }
         });
 
-        TXTF5.setBackground(new java.awt.Color(102, 102, 102));
         TXTF5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF5.setBorder(null);
         TXTF5.addActionListener(new java.awt.event.ActionListener() {
@@ -104,13 +103,13 @@ public class Agregar_Clientee extends javax.swing.JFrame {
 
         SP5.setForeground(new java.awt.Color(0, 0, 0));
 
-        TXTF3.setBackground(new java.awt.Color(102, 102, 102));
+        TXTF3.setEditable(false);
+        TXTF3.setBackground(new java.awt.Color(255, 255, 255));
         TXTF3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF3.setBorder(null);
 
         SP3.setForeground(new java.awt.Color(0, 0, 0));
 
-        TXTF4.setBackground(new java.awt.Color(102, 102, 102));
         TXTF4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF4.setBorder(null);
         TXTF4.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -121,7 +120,6 @@ public class Agregar_Clientee extends javax.swing.JFrame {
 
         SP4.setForeground(new java.awt.Color(0, 0, 0));
 
-        TXTF2.setBackground(new java.awt.Color(102, 102, 102));
         TXTF2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF2.setBorder(null);
         TXTF2.addActionListener(new java.awt.event.ActionListener() {
@@ -133,7 +131,7 @@ public class Agregar_Clientee extends javax.swing.JFrame {
         SP2.setForeground(new java.awt.Color(0, 0, 0));
 
         TXTF1.setEditable(false);
-        TXTF1.setBackground(new java.awt.Color(102, 102, 102));
+        TXTF1.setBackground(new java.awt.Color(255, 255, 255));
         TXTF1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF1.setBorder(null);
         TXTF1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
