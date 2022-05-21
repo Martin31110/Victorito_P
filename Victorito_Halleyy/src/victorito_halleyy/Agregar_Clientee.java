@@ -47,43 +47,33 @@ public class Agregar_Clientee extends javax.swing.JFrame {
         SP2 = new javax.swing.JSeparator();
         TXTF1 = new javax.swing.JTextField();
         SP1 = new javax.swing.JSeparator();
+        jSeparator1 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         LB1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         LB1.setForeground(new java.awt.Color(214, 0, 110));
         LB1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         LB1.setText("Agregar Cliente");
-        jPanel1.add(LB1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 80));
-
-        L_IMAGE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Colores.jpg"))); // NOI18N
-        jPanel1.add(L_IMAGE, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 80));
 
         LB2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         LB2.setText("Nombre del Cliente:");
-        jPanel1.add(LB2, new org.netbeans.lib.awtextra.AbsoluteConstraints(48, 101, -1, -1));
 
         LB3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        LB3.setText("Empresa:");
-        jPanel1.add(LB3, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 132, -1, -1));
+        LB3.setText("                Empresa:");
 
         LB7.setText("En los campos E-Mail y telefono es obligatorio llenar alguno de los dos ");
-        jPanel1.add(LB7, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 173, 380, -1));
 
         LB5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         LB5.setText("Telefono:");
-        jPanel1.add(LB5, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 210, -1, -1));
 
         LB4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         LB4.setText("E-mail:");
-        jPanel1.add(LB4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 252, -1, -1));
 
         LB6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         LB6.setText("RFC(Opcional):");
-        jPanel1.add(LB6, new org.netbeans.lib.awtextra.AbsoluteConstraints(74, 317, -1, -1));
 
         BTN2.setBackground(new java.awt.Color(0, 193, 193));
         BTN2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -93,7 +83,6 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                 BTN2ActionPerformed(evt);
             }
         });
-        jPanel1.add(BTN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(31, 369, -1, -1));
 
         BTN3.setBackground(new java.awt.Color(0, 193, 193));
         BTN3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -103,8 +92,8 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                 BTN3ActionPerformed(evt);
             }
         });
-        jPanel1.add(BTN3, new org.netbeans.lib.awtextra.AbsoluteConstraints(158, 369, -1, -1));
 
+        TXTF5.setBackground(new java.awt.Color(102, 102, 102));
         TXTF5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF5.setBorder(null);
         TXTF5.addActionListener(new java.awt.event.ActionListener() {
@@ -112,18 +101,16 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                 TXTF5ActionPerformed(evt);
             }
         });
-        jPanel1.add(TXTF5, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 317, 324, 20));
 
         SP5.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(SP5, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 337, 324, 10));
 
+        TXTF3.setBackground(new java.awt.Color(102, 102, 102));
         TXTF3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF3.setBorder(null);
-        jPanel1.add(TXTF3, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 242, 325, 30));
 
         SP3.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(SP3, new org.netbeans.lib.awtextra.AbsoluteConstraints(165, 272, 325, 10));
 
+        TXTF4.setBackground(new java.awt.Color(102, 102, 102));
         TXTF4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF4.setBorder(null);
         TXTF4.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -131,18 +118,22 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                 TXTF4KeyTyped(evt);
             }
         });
-        jPanel1.add(TXTF4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, 140, 20));
 
         SP4.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(SP4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, 140, 10));
 
+        TXTF2.setBackground(new java.awt.Color(102, 102, 102));
         TXTF2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF2.setBorder(null);
-        jPanel1.add(TXTF2, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 116, 325, 30));
+        TXTF2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TXTF2ActionPerformed(evt);
+            }
+        });
 
         SP2.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(SP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 149, 325, 12));
 
+        TXTF1.setEditable(false);
+        TXTF1.setBackground(new java.awt.Color(102, 102, 102));
         TXTF1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF1.setBorder(null);
         TXTF1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -157,16 +148,117 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                 TXTF1KeyTyped(evt);
             }
         });
-        jPanel1.add(TXTF1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 325, 30));
 
         SP1.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(SP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 114, 325, 0));
+
+        jSeparator1.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(LB1, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(L_IMAGE, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(104, 104, 104)
+                        .addComponent(LB7, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(170, 170, 170)
+                        .addComponent(SP2, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(LB3, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jSeparator1)
+                                    .addComponent(TXTF2, javax.swing.GroupLayout.DEFAULT_SIZE, 325, Short.MAX_VALUE)))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(LB2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(TXTF1, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(LB4, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(LB6, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(BTN2)
+                        .addGap(29, 29, 29)))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BTN3)
+                    .addComponent(SP5, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TXTF5, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(SP3)
+                            .addComponent(TXTF3, javax.swing.GroupLayout.DEFAULT_SIZE, 241, Short.MAX_VALUE))
+                        .addGap(47, 47, 47)
+                        .addComponent(LB5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TXTF4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(SP4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(14, 14, 14))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(LB1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(L_IMAGE, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TXTF1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LB2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TXTF2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LB3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(SP2, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(LB7)
+                .addGap(26, 26, 26)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TXTF3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LB4)
+                    .addComponent(TXTF4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LB5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(SP3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(TXTF5, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(LB6))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(SP5, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(41, 41, 41)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(BTN3)
+                            .addComponent(BTN2)))
+                    .addComponent(SP4, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(50, 50, 50))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 667, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 667, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -201,6 +293,10 @@ public class Agregar_Clientee extends javax.swing.JFrame {
         char c = evt.getKeyChar();
         if ((c<'a' || c>'z') && (c<'A' || c>'Z') && (c<' ' || c>' ')) evt.consume();
     }//GEN-LAST:event_TXTF1KeyTyped
+
+    private void TXTF2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TXTF2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TXTF2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -259,5 +355,6 @@ public class Agregar_Clientee extends javax.swing.JFrame {
     private javax.swing.JTextField TXTF4;
     private javax.swing.JTextField TXTF5;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JSeparator jSeparator1;
     // End of variables declaration//GEN-END:variables
 }
