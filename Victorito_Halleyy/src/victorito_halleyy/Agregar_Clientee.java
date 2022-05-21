@@ -45,9 +45,9 @@ public class Agregar_Clientee extends javax.swing.JFrame {
         SP4 = new javax.swing.JSeparator();
         TXTF2 = new javax.swing.JTextField();
         SP2 = new javax.swing.JSeparator();
-        TXTF1 = new javax.swing.JTextField();
         SP1 = new javax.swing.JSeparator();
         jSeparator1 = new javax.swing.JSeparator();
+        TXTF1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -103,8 +103,6 @@ public class Agregar_Clientee extends javax.swing.JFrame {
 
         SP5.setForeground(new java.awt.Color(0, 0, 0));
 
-        TXTF3.setEditable(false);
-        TXTF3.setBackground(new java.awt.Color(255, 255, 255));
         TXTF3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         TXTF3.setBorder(null);
 
@@ -130,27 +128,12 @@ public class Agregar_Clientee extends javax.swing.JFrame {
 
         SP2.setForeground(new java.awt.Color(0, 0, 0));
 
-        TXTF1.setEditable(false);
-        TXTF1.setBackground(new java.awt.Color(255, 255, 255));
-        TXTF1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        TXTF1.setBorder(null);
-        TXTF1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        TXTF1.setDoubleBuffered(true);
-        TXTF1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TXTF1ActionPerformed(evt);
-            }
-        });
-        TXTF1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                TXTF1KeyTyped(evt);
-            }
-        });
-
         SP1.setForeground(new java.awt.Color(0, 0, 0));
 
         jSeparator1.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
+
+        TXTF1.setBorder(null);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -176,7 +159,7 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jSeparator1)
                                     .addComponent(TXTF2, javax.swing.GroupLayout.DEFAULT_SIZE, 325, Short.MAX_VALUE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addComponent(LB2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(TXTF1, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE)))))
@@ -216,8 +199,8 @@ public class Agregar_Clientee extends javax.swing.JFrame {
                     .addComponent(L_IMAGE, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TXTF1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(LB2))
+                    .addComponent(LB2)
+                    .addComponent(TXTF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -282,15 +265,6 @@ public class Agregar_Clientee extends javax.swing.JFrame {
         char n = evt.getKeyChar();
         if(( n<  '0' || n> '9')) evt.consume();
     }//GEN-LAST:event_TXTF4KeyTyped
-
-    private void TXTF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TXTF1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TXTF1ActionPerformed
-
-    private void TXTF1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TXTF1KeyTyped
-        char c = evt.getKeyChar();
-        if ((c<'a' || c>'z') && (c<'A' || c>'Z') && (c<' ' || c>' ')) evt.consume();
-    }//GEN-LAST:event_TXTF1KeyTyped
 
     private void TXTF2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TXTF2ActionPerformed
         // TODO add your handling code here:
